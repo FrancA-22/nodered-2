@@ -1,0 +1,21 @@
+[
+    {
+        "id": "inject1",
+        "type": "inject",
+        "z": "tab1",
+        "name": "Trigger každých 10s",
+        "props": [],
+        "repeat": "10",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.1,
+        "topic": "",
+        "x": 150,
+        "y": 100,
+        "wires": [
+            [
+                "http1"
+            ]
+        ]
+    }
+]
